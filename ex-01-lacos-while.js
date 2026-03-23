@@ -169,34 +169,22 @@ Questões 01 a 10: Exercícios com laços de repetição do tipo "While"
 MÍNIMO NECESSÁRIO PARA NOTA MÁXIMA: 7 questões
 */
 
-/* Questão 01
-Crie um laço de repetição while que armazene em uma variável a soma dos números
-de 1 a 32. Envie o valor resultante na variável resposta01.
-*/
-// Escreva o código da solução abaixo:
+// Lista para as questões 5 a 10:
+const nomes = [
+  "Ana", "Bruno", "Carla", "Daniel", "Eduarda", 
+  "Fábio", "Gabriela", "Hugo", "Isabela", "João"
+];
 
-export const resposta01 = false
-
-/*Questão 01*/
+/* Questão 01 */
 let soma01 = 0;
 let i01 = 1;
 while (i01 <= 32) {
   soma01 += i01;
   i01++;
 }
-const resposta01 = soma01;
+export const resposta01 = soma01;
 
-
-
-/* Questão 02
-Utilizando um laço de repetição while, calcule a soma de todos os números ímpares
-de 1 até 50 (incluindo 50). Armazene o resultado da soma na variável resposta02.
-*/
-// Escreva o código da solução abaixo:
-
-export const resposta02 = false
-
-/*Questão 02*/
+/* Questão 02 */
 let soma02 = 0;
 let i02 = 1;
 while (i02 <= 50) {
@@ -205,20 +193,9 @@ while (i02 <= 50) {
   }
   i02++;
 }
-const resposta02 = soma02;
+export const resposta02 = soma02;
 
-
-/* Questão 03
-Crie um laço de repetição while que conte quantos números negativos existem no
-array abaixo. Armazene a quantidade encontrada na variável resposta03.
-
-const numeros = [15, -3, 8, -12, 0, -7, 22, -1, 9, -5, 18, -2]
-*/
-// Escreva o código da solução abaixo:
-
-export const resposta03 = false
-
-/*Questão 03*/
+/* Questão 03 */
 const numeros03 = [15, -3, 8, -12, 0, -7, 22, -1, 9, -5, 18, -2];
 let indice03 = 0;
 let contNegativos = 0;
@@ -228,29 +205,9 @@ while (indice03 < numeros03.length) {
   }
   indice03++;
 }
-const resposta03 = contNegativos;
+export const resposta03 = contNegativos;
 
-
-/* Questão 04
-Utilizando um laço de repetição while, faça a soma de todos os múltiplos de 7 
-entre 1 e 100 (incluindo 100). Armazene o resultado na variável resposta04.
-*/
-// Escreva o código da solução abaixo:
-
-export const resposta04 = false
-
-// Lista para as questões 5 a 10:
-const nomes = [
-  "Ana", "Bruno", "Carla", "Daniel", "Eduarda", 
-  "Fábio", "Gabriela", "Hugo", "Isabela", "João"
-]
-
-/* DICA
-Lembrem-se que para JavaScript, textos são listas de caracteres, e portanto possuem
-as mesmas propriedades de índices e comprimento (length)
-*/
-
-/*Questão 04*/
+/* Questão 04 */
 let soma04 = 0;
 let i04 = 1;
 while (i04 <= 100) {
@@ -259,138 +216,68 @@ while (i04 <= 100) {
   }
   i04++;
 }
-const resposta04 = soma04;
+export const resposta04 = soma04;
 
-
-/* Questão 05
-Dada a lista de nomes acima, utilize um laço de repetição while para criar um
-novo array contendo a mesma lista, mas em ordem reversa. Armazene o novo array
-na variável resposta05.
-*/
-// Escreva o código da solução abaixo:
-
-export const resposta05 = false
-
-/*Questão 05*/
-let indice05 = nomes05.length - 1;
+/* Questão 05 */
+let indice05 = nomes.length - 1;
 const resposta05Array = [];
 while (indice05 >= 0) {
-  resposta05Array.push(nomes05[indice05]);
+  resposta05Array.push(nomes[indice05]);
   indice05--;
 }
-const resposta05 = resposta05Array;
+export const resposta05 = resposta05Array;
 
-
-/* Questão 06
-Utilizando a mesma lista de nomes da questão anterior, crie um novo array contendo
-apenas os nomes que estão nos índices pares da lista original (índices 0, 2, 4, 6, 8).
-Armazene o novo array na variável resposta06.
-*/
-// Escreva o código da solução abaixo:
-
-export const resposta06 = false
-
-/*Questão 06*/
+/* Questão 06 */
 let indice06 = 0;
 const resposta06Array = [];
-while (indice06 < nomes05.length) {
+while (indice06 < nomes.length) {
   if (indice06 % 2 === 0) {
-    resposta06Array.push(nomes05[indice06]);
+    resposta06Array.push(nomes[indice06]);
   }
   indice06++;
 }
-const resposta06 = resposta06Array;
+export const resposta06 = resposta06Array;
 
-
-/* Questão 07
-Continuando com a lista de nomes, crie um novo array contendo apenas os nomes
-que possuem 5 letras ou menos. Armazene o novo array na variável resposta07.
-*/
-// Escreva o código da solução abaixo:
-
-export const resposta07 = false
-
-/*Questão 07*/
+/* Questão 07 */
 let indice07 = 0;
 const resposta07Array = [];
-while (indice07 < nomes05.length) {
-  if (nomes05[indice07].length <= 5) {
-    resposta07Array.push(nomes05[indice07]);
+while (indice07 < nomes.length) {
+  if (nomes[indice07].length <= 5) {
+    resposta07Array.push(nomes[indice07]);
   }
   indice07++;
 }
-const resposta07 = resposta07Array;
+export const resposta07 = resposta07Array;
 
-
-/* Questão 08
-Ainda com a lista de nomes, crie um novo array onde todos os nomes estejam
-escritos em letras maiúsculas. Armazene o novo array na variável resposta08.
-*/
-// Escreva o código da solução abaixo:
-
-export const resposta08 = false
-
-/*Questão 08*/
+/* Questão 08 */
 let indice08 = 0;
 const resposta08Array = [];
-while (indice08 < nomes05.length) {
-  resposta08Array.push(nomes05[indice08].toUpperCase());
+while (indice08 < nomes.length) {
+  resposta08Array.push(nomes[indice08].toUpperCase());
   indice08++;
 }
-const resposta08 = resposta08Array;
+export const resposta08 = resposta08Array;
 
-
-/* Questão 09
-Seguindo com a mesma lista de nomes, crie um novo array contendo apenas os nomes
-que começam com vogal (considere A, E, I, O, U, inclusive acentuadas se houver).
-Armazene o novo array na variável resposta09.
-*/
-// Escreva o código da solução abaixo:
-
-export const resposta09 = false
-
-/*Questão 09*/
+/* Questão 09 */
 let indice09 = 0;
 const resposta09Array = [];
 const vogais = ["A", "E", "I", "O", "U", "Á", "É", "Í", "Ó", "Ú"];
-while (indice09 < nomes05.length) {
-  const primeiraLetra = nomes05[indice09][0].toUpperCase();
+while (indice09 < nomes.length) {
+  const primeiraLetra = nomes[indice09][0].toUpperCase();
   if (vogais.includes(primeiraLetra)) {
-    resposta09Array.push(nomes05[indice09]);
+    resposta09Array.push(nomes[indice09]);
   }
   indice09++;
 }
-const resposta09 = resposta09Array;
+export const resposta09 = resposta09Array;
 
-/* Questão 10
-Finalizando com a lista de nomes, encontre o nome mais longo da lista.
-Se houver empate (mais de um nome com o mesmo comprimento máximo), armazene
-apenas o primeiro que aparecer na lista. Coloque o nome encontrado na variável resposta10.
-*/
-// Escreva o código da solução abaixo:
-
-export const resposta10 = false
-
-/*Questão 10*/
+/* Questão 10 */
 let indice10 = 0;
-let nomeMaisLongo = nomes05[0];
-while (indice10 < nomes05.length) {
-  if (nomes05[indice10].length > nomeMaisLongo.length) {
-    nomeMaisLongo = nomes05[indice10];
+let nomeMaisLongo = nomes[0];
+while (indice10 < nomes.length) {
+  if (nomes[indice10].length > nomeMaisLongo.length) {
+    nomeMaisLongo = nomes[indice10];
   }
   indice10++;
 }
-const resposta10 = nomeMaisLongo;
-
-console.log({
-  resposta01,
-  resposta02,
-  resposta03,
-  resposta04,
-  resposta05,
-  resposta06,
-  resposta07,
-  resposta08,
-  resposta09,
-  resposta10
-});
+export const resposta10 = nomeMaisLongo;
