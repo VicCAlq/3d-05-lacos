@@ -184,7 +184,7 @@ while (i01 <= 32) {
   soma01 += i01;
   i01++;
 }
-export const resposta01 = soma01;
+const resposta01 = soma01;
 
 
 
@@ -205,8 +205,7 @@ while (i02 <= 50) {
   }
   i02++;
 }
-export const resposta02 = soma02;
-
+const resposta02 = soma02;
 
 
 /* Questão 03
@@ -229,7 +228,7 @@ while (indice03 < numeros03.length) {
   }
   indice03++;
 }
-export const resposta03 = contNegativos;
+const resposta03 = contNegativos;
 
 
 /* Questão 04
@@ -260,7 +259,7 @@ while (i04 <= 100) {
   }
   i04++;
 }
-export const resposta04 = soma04;
+const resposta04 = soma04;
 
 
 /* Questão 05
@@ -279,7 +278,7 @@ while (indice05 >= 0) {
   resposta05Array.push(nomes05[indice05]);
   indice05--;
 }
-export const resposta05 = resposta05Array;
+const resposta05 = resposta05Array;
 
 
 /* Questão 06
@@ -300,7 +299,7 @@ while (indice06 < nomes05.length) {
   }
   indice06++;
 }
-export const resposta06 = resposta06Array;
+const resposta06 = resposta06Array;
 
 
 /* Questão 07
@@ -320,7 +319,7 @@ while (indice07 < nomes05.length) {
   }
   indice07++;
 }
-export const resposta07 = resposta07Array;
+const resposta07 = resposta07Array;
 
 
 /* Questão 08
@@ -338,7 +337,7 @@ while (indice08 < nomes05.length) {
   resposta08Array.push(nomes05[indice08].toUpperCase());
   indice08++;
 }
-export const resposta08 = resposta08Array;
+const resposta08 = resposta08Array;
 
 
 /* Questão 09
@@ -361,7 +360,7 @@ while (indice09 < nomes05.length) {
   }
   indice09++;
 }
-export const resposta09 = resposta09Array;
+const resposta09 = resposta09Array;
 
 /* Questão 10
 Finalizando com a lista de nomes, encontre o nome mais longo da lista.
@@ -381,4 +380,17 @@ while (indice10 < nomes05.length) {
   }
   indice10++;
 }
-export const resposta10 = nomeMaisLongo;
+const resposta10 = nomeMaisLongo;
+
+console.log({
+  resposta01,
+  resposta02,
+  resposta03,
+  resposta04,
+  resposta05,
+  resposta06,
+  resposta07,
+  resposta08,
+  resposta09,
+  resposta10
+});
