@@ -182,8 +182,13 @@ Utilizando um laço de repetição while, calcule a soma de todos os números í
 de 1 até 50 (incluindo 50). Armazene o resultado da soma na variável resposta02.
 */
 // Escreva o código da solução abaixo:
-
-export const resposta02 = false
+let i = 1;
+let soma = 0;
+while (i <= 50) {
+  soma = soma + i;
+  i ++
+}
+export const resposta02 = soma
 
 /* Questão 03
 Crie um laço de repetição while que conte quantos números negativos existem no
@@ -192,16 +197,33 @@ array abaixo. Armazene a quantidade encontrada na variável resposta03.
 const numeros = [15, -3, 8, -12, 0, -7, 22, -1, 9, -5, 18, -2]
 */
 // Escreva o código da solução abaixo:
+const numeros = [15, -3, 8, -12, 0, -7, 22, -1, 9, -5, 18, -2];
+let i = 0;
+let j = 0;
 
-export const resposta03 = false
+while (i < numeros.length) {
+    i++;
+    if(numeros[i] < 0) {
+        j++;
+    }
+}
+export const resposta03 = j;
 
 /* Questão 04
 Utilizando um laço de repetição while, faça a soma de todos os múltiplos de 7 
 entre 1 e 100 (incluindo 100). Armazene o resultado na variável resposta04.
 */
 // Escreva o código da solução abaixo:
+let i = 0;
+let j = 0;
 
-export const resposta04 = false
+while (i < 100) {
+    if (i % 7 == 0) {
+        j += i;
+    }
+    i++;
+}
+export const resposta04 = j;
 
 // Lista para as questões 5 a 10:
 const nomes = [
@@ -220,8 +242,19 @@ novo array contendo a mesma lista, mas em ordem reversa. Armazene o novo array
 na variável resposta05.
 */
 // Escreva o código da solução abaixo:
+const nomes = [
+  "Ana", "Bruno", "Carla", "Daniel", "Eduarda", 
+  "Fábio", "Gabriela", "Hugo", "Isabela", "João"
+]
 
-export const resposta05 = false
+let i = 0;
+let l = [];
+
+while (i < nomes.length) {
+    l.unshift(nomes[i]);
+    i++;
+}
+export const resposta05 = l;
 
 /* Questão 06
 Utilizando a mesma lista de nomes da questão anterior, crie um novo array contendo
