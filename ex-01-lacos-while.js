@@ -175,15 +175,29 @@ de 1 a 32. Envie o valor resultante na variável resposta01.
 */
 // Escreva o código da solução abaixo:
 
-export const resposta01 = false
+let soma1 = 0
+let i1 = 1
+
+while (i1 <= 32) {
+  soma1 += i1
+  i1++
+}
+
+export const resposta01 = soma1
 
 /* Questão 02
 Utilizando um laço de repetição while, calcule a soma de todos os números ímpares
 de 1 até 50 (incluindo 50). Armazene o resultado da soma na variável resposta02.
 */
 // Escreva o código da solução abaixo:
-
-export const resposta02 = false
+let aba = 0
+let i = 1
+while(i <= 50){
+  if(i % 2 !== 0 ){
+    aba =+ i
+  } i++
+}
+export const resposta02 = aba
 
 /* Questão 03
 Crie um laço de repetição while que conte quantos números negativos existem no
@@ -193,7 +207,16 @@ const numeros = [15, -3, 8, -12, 0, -7, 22, -1, 9, -5, 18, -2]
 */
 // Escreva o código da solução abaixo:
 
-export const resposta03 = false
+const numerus = [15, -3,8, -12, 0, -7, 22, -1, 9, -5, 18, -2]
+let indice = 0
+let quantidade = 0
+while (indice < numerus.length) {
+  if (numerus[indice] < 0) {
+    quantidade ++
+  }
+  indice++
+}
+export const resposta03 = quantidadee
 
 /* Questão 04
 Utilizando um laço de repetição while, faça a soma de todos os múltiplos de 7 
@@ -201,7 +224,15 @@ entre 1 e 100 (incluindo 100). Armazene o resultado na variável resposta04.
 */
 // Escreva o código da solução abaixo:
 
-export const resposta04 = false
+numeros = 1
+fim = 0
+while(numeros <= 100){
+  if (numeros % 7  === 0){
+    fim += numeros
+  }
+  numeros++
+}
+export const resposta04 = fi
 
 // Lista para as questões 5 a 10:
 const nomes = [
