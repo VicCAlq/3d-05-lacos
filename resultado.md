@@ -1,11 +1,11 @@
-Data de atualização: Dia 29/03/2026 às 20:37:11
+Data de atualização: Dia 30/03/2026 às 16:30:18
  
 
 | Questão | Exercício | Entregue | Correto | Mensagem de Erro |
 |---------|-----------|----------|---------|------------------|
-|  1 | Ex 01 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
-|  2 | Ex 01 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
-|  3 | Ex 01 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
+|  1 | Ex 01 | ✅ | ✅ | Nenhum erro |
+|  2 | Ex 01 | ✅ | ❌ | AssertionError: expected 650 to deeply equal 625 |
+|  3 | Ex 01 | ✅ | ✅ | Nenhum erro |
 |  4 | Ex 01 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
 |  5 | Ex 01 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
 |  6 | Ex 01 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
