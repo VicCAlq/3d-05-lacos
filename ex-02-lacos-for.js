@@ -189,13 +189,11 @@ Utilizando um laço de repetição for, calcule a soma de todos os números de 1
 (incluindo 100). Armazene o resultado na variável resposta01.
 */
 // Escreva o código da solução abaixo:
-let soma1 = 0
-
+let soma1 = 0;
 for (let i = 1; i <= 100; i++) {
-  soma1 += i
+  soma1 += i;
 }
-
-export const resposta01 = soma1 = false
+export const resposta01 = soma1;
 
 /* Questão 02
 Utilizando um laço de repetição for, calcule quantos números ímpares existem entre
@@ -235,19 +233,14 @@ múltiplos de 3 entre 1 e 200 (incluindo os limites). Armazene o resultado
 (pode ser decimal) na variável resposta04.
 */
 // Escreva o código da solução abaixo:
-let soma4 = 0
-let contador4 = 0
-
-for (let i = 1; i <= 200; i++) {
-  if (i % 3 === 0) {
-    soma4 += i
-    contador4++
-  }
+let soma4 = 0;
+let contador4 = 0;
+for (let i = 3; i < 200; i += 3) {
+  soma4 += i;
+  contador4++;
 }
-
-let media4 = soma4 / contador4
-
-export const resposta04 = media4
+let media4 = soma4 / contador4;
+export const resposta04 = media4;
 
 // Lista para as questões 5 a 8:
 const itensDomesticos = [
@@ -374,17 +367,13 @@ const petsExoticos = [
 ]
 */
 // Escreva o código da solução abaixo:
-let contador11 = 0
-
+let lista11 = [];
 for (let pet of petsExoticos) {
   if (pet.length > 7) {
-    contador11++
+    lista11.push(pet);
   }
 }
-
-export const resposta11 = contador11
-
-
+export const resposta11 = lista11;
 /* Questão 12
 Encerrando com a lista de pets exóticos, use um laço de repetição for...of para
 encontrar o primeiro nome que começa com a letra "s". Se encontrar, armazene este
