@@ -191,7 +191,7 @@ de 1 até 50 (incluindo 50). Armazene o resultado da soma na variável resposta0
 let valor = 0
 let soma1 = 0
 while(valor <= 50){
-    if (valor % 2 === 0) {
+    if (valor % 2 !== 0) {
       soma1 = soma1 + valor
     }
     valor += 1
@@ -222,8 +222,17 @@ Utilizando um laço de repetição while, faça a soma de todos os múltiplos de
 entre 1 e 100 (incluindo 100). Armazene o resultado na variável resposta04.
 */
 // Escreva o código da solução abaixo:
+let numbers = 0
+let soma2 = 0
 
-export const resposta04 = false
+while(numbers <= 100) {
+  if (numbers % 7 === 0){
+    soma2 = numbers + soma2
+  }
+  numbers += 1
+}
+
+export const resposta04 = soma2
 
 // Lista para as questões 5 a 10:
 const nomes = [
@@ -242,8 +251,14 @@ novo array contendo a mesma lista, mas em ordem reversa. Armazene o novo array
 na variável resposta05.
 */
 // Escreva o código da solução abaixo:
-
-export const resposta05 = false
+const l2 = []
+let c = 0
+while (l2.length < nomes.length){
+  l2[c] = nomes[c]
+  c += 1
+}
+l2.reverse()
+export const resposta05 = l2 
 
 /* Questão 06
 Utilizando a mesma lista de nomes da questão anterior, crie um novo array contendo
@@ -251,8 +266,17 @@ apenas os nomes que estão nos índices pares da lista original (índices 0, 2, 
 Armazene o novo array na variável resposta06.
 */
 // Escreva o código da solução abaixo:
-
-export const resposta06 = false
+const pares = []
+let d = 0
+let e = 0
+while (d < nomes.length){
+  if (d % 2 === 0){
+    pares[e] = nomes[d]
+    e += 1
+  } 
+  d += 1 
+}
+export const resposta06 = pares
 
 /* Questão 07
 Continuando com a lista de nomes, crie um novo array contendo apenas os nomes
