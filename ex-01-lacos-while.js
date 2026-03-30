@@ -174,16 +174,30 @@ Crie um laço de repetição while que armazene em uma variável a soma dos núm
 de 1 a 32. Envie o valor resultante na variável resposta01.
 */
 // Escreva o código da solução abaixo:
+let c = 0
+let fim = 32
 
-export const resposta01 = false
+while (c <= fim ){
+ c = c + 1
+}
+export const resposta01 = c
 
 /* Questão 02
 Utilizando um laço de repetição while, calcule a soma de todos os números ímpares
 de 1 até 50 (incluindo 50). Armazene o resultado da soma na variável resposta02.
 */
 // Escreva o código da solução abaixo:
+let cUm = 1
+let soma = 0
 
-export const resposta02 = false
+while (cUm <= 50) {
+  if (cUm % 2 !== 0) {
+ soma = soma + cUm 
+  }
+  cUm++
+}
+
+export const resposta02 = soma
 
 /* Questão 03
 Crie um laço de repetição while que conte quantos números negativos existem no
@@ -192,6 +206,14 @@ array abaixo. Armazene a quantidade encontrada na variável resposta03.
 const numeros = [15, -3, 8, -12, 0, -7, 22, -1, 9, -5, 18, -2]
 */
 // Escreva o código da solução abaixo:
+const numeros = [15, -3, 8, -12, 0, -7, 22, -1, 9, -5, 18, -2]
+let cDois = 0
+let lista = []
+
+while (cDois <= numeros.length)
+  if (numeros[numeros] < 0){
+    lista = []
+  }cDois++
 
 export const resposta03 = false
 
