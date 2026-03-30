@@ -174,8 +174,14 @@ Crie um laço de repetição while que armazene em uma variável a soma dos núm
 de 1 a 32. Envie o valor resultante na variável resposta01.
 */
 // Escreva o código da solução abaixo:
+let acumulador = 1
+let fim = 32
 
-export const resposta01 = false
+while (acumulador >= fim) {
+  acumulador = acumulador + 1
+}
+
+export const resposta01 = acumulador
 
 /* Questão 02
 Utilizando um laço de repetição while, calcule a soma de todos os números ímpares
@@ -192,6 +198,12 @@ array abaixo. Armazene a quantidade encontrada na variável resposta03.
 const numeros = [15, -3, 8, -12, 0, -7, 22, -1, 9, -5, 18, -2]
 */
 // Escreva o código da solução abaixo:
+while (indice < numeros.length) {
+  if (numeros[indice] < 0) {
+    console.log(numeros[indice])
+  }
+  indice++
+}
 
 export const resposta03 = false
 
@@ -200,12 +212,14 @@ Utilizando um laço de repetição while, faça a soma de todos os múltiplos de
 entre 1 e 100 (incluindo 100). Armazene o resultado na variável resposta04.
 */
 // Escreva o código da solução abaixo:
-
+while(){
+  
+}
 export const resposta04 = false
 
 // Lista para as questões 5 a 10:
 const nomes = [
-  "Ana", "Bruno", "Carla", "Daniel", "Eduarda", 
+  "Ana", "Bruno", "Carla", "Daniel", "Eduarda",
   "Fábio", "Gabriela", "Hugo", "Isabela", "João"
 ]
 
