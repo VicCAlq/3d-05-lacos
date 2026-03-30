@@ -1,10 +1,10 @@
-Data de atualização: Dia 29/03/2026 às 20:38:10
+Data de atualização: Dia 30/03/2026 às 16:32:13
  
 
 | Questão | Exercício | Entregue | Correto | Mensagem de Erro |
 |---------|-----------|----------|---------|------------------|
-|  1 | Ex 01 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
-|  2 | Ex 01 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
+|  1 | Ex 01 | ✅ | ❌ | AssertionError: expected [ Array(32) ] to deeply equal 528 |
+|  2 | Ex 01 | ✅ | ❌ | AssertionError: expected [ Array(25) ] to deeply equal 625 |
 |  3 | Ex 01 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
 |  4 | Ex 01 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
 |  5 | Ex 01 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
