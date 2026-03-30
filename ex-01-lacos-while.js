@@ -207,16 +207,16 @@ const numeros = [15, -3, 8, -12, 0, -7, 22, -1, 9, -5, 18, -2]
 */
 // Escreva o código da solução abaixo:
 
-const numerus = [15, -3,8, -12, 0, -7, 22, -1, 9, -5, 18, -2]
+const numeros = [15, -3,8, -12, 0, -7, 22, -1, 9, -5, 18, -2]
 let indice = 0
 let quantidade = 0
-while (indice < numerus.length) {
-  if (numerus[indice] < 0) {
+while (indice < numeros.length) {
+  if (numeros[indice] < 0) {
     quantidade ++
   }
   indice++
 }
-export const resposta03 = quantidadee
+export const resposta03 = quantidade
 
 /* Questão 04
 Utilizando um laço de repetição while, faça a soma de todos os múltiplos de 7 
@@ -224,15 +224,15 @@ entre 1 e 100 (incluindo 100). Armazene o resultado na variável resposta04.
 */
 // Escreva o código da solução abaixo:
 
-numeros = 1
-fim = 0
-while(numeros <= 100){
-  if (numeros % 7  === 0){
-    fim += numeros
+let p  = 1
+let fim = 0
+while(p <= 100){
+  if (p % 7  === 0){
+    fim += p
   }
-  numeros++
+  p++
 }
-export const resposta04 = fi
+export const resposta04 = fim 
 
 // Lista para as questões 5 a 10:
 const nomes = [
@@ -252,7 +252,14 @@ na variável resposta05.
 */
 // Escreva o código da solução abaixo:
 
-export const resposta05 = false
+let x = nomes.length - 1
+let y = []
+while(x >= 0){
+   y.push(nomes[x])
+   x -= 1
+}
+
+export const resposta05 = y
 
 /* Questão 06
 Utilizando a mesma lista de nomes da questão anterior, crie um novo array contendo
@@ -261,7 +268,16 @@ Armazene o novo array na variável resposta06.
 */
 // Escreva o código da solução abaixo:
 
-export const resposta06 = false
+const arrayPar = []
+let ind = 0
+while(ind < nomes.length){
+    if(ind % 2 === 0 ){
+        arrayPar.push(nomes[ind])
+    }
+   ind ++
+}
+
+export const resposta06 = arrayPar
 
 /* Questão 07
 Continuando com a lista de nomes, crie um novo array contendo apenas os nomes
@@ -269,6 +285,14 @@ que possuem 5 letras ou menos. Armazene o novo array na variável resposta07.
 */
 // Escreva o código da solução abaixo:
 
+const r7 = [] 
+let ind1 = 0
+while (ind1 < nomes.length){
+    if(nomes[ind1].length <= 5){
+        r7.push(nomes[ind1])
+    }
+    ind1 ++
+}
 export const resposta07 = false
 
 /* Questão 08
