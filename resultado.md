@@ -1,9 +1,9 @@
-Data de atualização: Dia 30/03/2026 às 16:29:54
+Data de atualização: Dia 01/04/2026 às 18:08:54
  
 
 | Questão | Exercício | Entregue | Correto | Mensagem de Erro |
 |---------|-----------|----------|---------|------------------|
-| ❌❌❌ | Ex 1 | ❌❌❌ | ❌❌❌ | Identifier 'resposta01' has already been declared |
+| ❌❌❌ | Ex 1 | ❌❌❌ | ❌❌❌ | Identifier 'i' has already been declared |
 |  1 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
 |  2 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
 |  3 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
