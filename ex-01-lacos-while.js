@@ -175,7 +175,7 @@ de 1 a 32. Envie o valor resultante na variável resposta01.
 */
 // Escreva o código da solução abaixo:
 
-export const resposta01 = false
+
 let soma1 = 0
 let i1 = 1
 
@@ -192,7 +192,7 @@ de 1 até 50 (incluindo 50). Armazene o resultado da soma na variável resposta0
 */
 // Escreva o código da solução abaixo:
 
-export const resposta02 = false
+
 let soma2 = 0
 let i2 = 1
 
@@ -213,7 +213,7 @@ const numeros = [15, -3, 8, -12, 0, -7, 22, -1, 9, -5, 18, -2]
 */
 // Escreva o código da solução abaixo:
 
-export const resposta03 = false
+
 const numeros = [15, -3, 8, -12, 0, -7, 22, -1, 9, -5, 18, -2]
 let indice3 = 0
 let negativos = 0
@@ -233,7 +233,7 @@ entre 1 e 100 (incluindo 100). Armazene o resultado na variável resposta04.
 */
 // Escreva o código da solução abaixo:
 
-export const resposta04 = false
+
 let soma4 = 0
 let i4 = 1
 
@@ -264,7 +264,7 @@ na variável resposta05.
 */
 // Escreva o código da solução abaixo:
 
-export const resposta05 = false
+
 let resposta05Array = []
 let i5 = nomes.length - 1
 
@@ -282,7 +282,7 @@ Armazene o novo array na variável resposta06.
 */
 // Escreva o código da solução abaixo:
 
-export const resposta06 = false
+
 let resposta06Array = []
 let i6 = 0
 
@@ -300,7 +300,7 @@ que possuem 5 letras ou menos. Armazene o novo array na variável resposta07.
 */
 // Escreva o código da solução abaixo:
 
-export const resposta07 = false
+
 let resposta07Array = []
 let i7 = 0
 
@@ -318,7 +318,7 @@ escritos em letras maiúsculas. Armazene o novo array na variável resposta08.
 */
 // Escreva o código da solução abaixo:
 
-export const resposta08 = false
+
 let resposta08Array = []
 let i8 = 0
 
@@ -337,7 +337,7 @@ Armazene o novo array na variável resposta09.
 */
 // Escreva o código da solução abaixo:
 
-export const resposta09 = false
+
 let resposta09Array = []
 let i9 = 0
 const vogais = ["a", "e", "i", "o", "u"]
@@ -361,7 +361,7 @@ apenas o primeiro que aparecer na lista. Coloque o nome encontrado na variável 
 */
 // Escreva o código da solução abaixo:
 
-export const resposta10 = false
+
 let i10 = 0
 let maiorNome = ""
 
