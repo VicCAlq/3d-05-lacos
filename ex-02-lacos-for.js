@@ -190,7 +190,7 @@ Utilizando um laço de repetição for, calcule a soma de todos os números de 1
 */
 // Escreva o código da solução abaixo:
 
-export const resposta01 = false
+
 let soma1 = 0
 
 for (let i = 1; i <= 100; i++) {
@@ -204,7 +204,7 @@ Utilizando um laço de repetição for, calcule quantos números ímpares existe
 */
 // Escreva o código da solução abaixo:
 
-export const resposta02 = false
+
 let contadorImpares = 0
 
 for (let i = 1; i <= 50; i++) {
@@ -223,7 +223,7 @@ variável resposta03.
 */
 // Escreva o código da solução abaixo:
 
-export const resposta03 = false
+
 let somaParesNegativos = 0
 
 for (let i = -100; i <= -1; i++) {
@@ -241,7 +241,7 @@ múltiplos de 3 entre 1 e 200 (incluindo os limites). Armazene o resultado
 */
 // Escreva o código da solução abaixo:
 
-export const resposta04 = false
+
 let somaMultiplos3 = 0
 let quantidade = 0
 
@@ -290,7 +290,7 @@ Armazene o novo array na variável resposta06.
 */
 // Escreva o código da solução abaixo:
 
-export const resposta06 = false
+
 let resposta06Array = []
 
 for (let i = 0; i < itensDomesticos.length; i++) {
@@ -309,7 +309,7 @@ na variável resposta07.
 */
 // Escreva o código da solução abaixo:
 
-export const resposta07 = false
+
 let resposta07Array = []
 
 for (let i = 0; i < itensDomesticos.length; i++) {
@@ -337,7 +337,6 @@ o novo array na variável resposta08.
 */
 // Escreva o código da solução abaixo:
 
-export const resposta08 = false
 
 // Lista para as questões 5 a 10:
 const petsExoticos = [
@@ -352,7 +351,7 @@ novo array na variável resposta09.
 */
 // Escreva o código da solução abaixo:
 
-export const resposta09 = false
+
 let resposta09Array = []
 
 for (let pet of petsExoticos) {
@@ -373,7 +372,7 @@ const petsExoticos = [
 */
 // Escreva o código da solução abaixo:
 
-export const resposta10 = false
+
 let resposta10Array = []
 
 for (let pet of petsExoticos) {
@@ -395,7 +394,7 @@ const petsExoticos = [
 */
 // Escreva o código da solução abaixo:
 
-export const resposta11 = false
+
 let contadorLongos = 0
 
 for (let pet of petsExoticos) {
@@ -418,7 +417,7 @@ const petsExoticos = [
 */
 // Escreva o código da solução abaixo:
 
-export const resposta12 = false
+
 let encontrado = "não encontrado"
 
 for (let pet of petsExoticos) {
